@@ -1,1 +1,95 @@
 /* your code here */
+
+/*The CSS for the big apple and its mugshots starts here*/
+.product{
+	background-color: springgreen;
+	display: flex;
+	flex-direction: row;
+}
+.photo-container{
+	width: 350px;
+	border: 1px solid black;	
+}
+.photo-main{
+	
+	background-image: radial-gradient(lightyellow,lime);
+}
+.photo-main img{
+	
+}
+
+.photo-album{
+	background-color: white;
+	height: 100px;
+}
+.photo-album ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: ;
+	gap: 5px;
+	padding-top: 15px
+	
+}
+.photo-album ul li{
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.photo-album ul li img{
+	filter: drop-shadow(0px 0px 2px black); 
+}
+/*The CSS for the big apple and its mugshots ends here*/
+
+/*The CSS for the big white box and its components starts here*/
+.product__info{
+	background-color: white;
+	width: 50%;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-family: akrobat bold, sans-serif;
+}
+.title h1{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+.title span{
+	color: gray;
+	font-size: 10px;
+	margin-top: 0px;
+}
+.price{
+	color: red;
+	font-size: 35px;
+}
+.variant h3{
+	color: gray;
+}
+.variant ul{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.variant ul li{
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.variant ul li img{
+	filter: drop-shadow(0px 0px 2px black); 
+}
+.description h3{
+	color: gray;
+} 
+.cart-button{
+	background-color: tomato;
+	color: white;
+	font-weight: bold;
+	width: 60%;
+	height: 50px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 0px 7px;
+}
+
+
+/*The CSS for the big white box and its components starts here*/
